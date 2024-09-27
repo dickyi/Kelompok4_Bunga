@@ -26,6 +26,22 @@ public class Main {
         System.out.println("Iklim             : " + bunga.getIklim());
         System.out.println("Tanah             : " + bunga.getTanah());
         System.out.println("Hewan Penyerbuk   : " + bunga.getHewan_penyerbuk());
+        
+        
+        Bunga_Tulip st = new Bunga_Tulip();
+
+        st.setnama_ilmiah("Tulipa");
+        st.setWarna("Beragam(Merah, Kuning, Putih)");
+        st.setIklim("Sedang");
+        st.setTanah("Berdrainase baik dan subur");
+        st.setHewan_penyerbuk("Lebah");
+
+        System.out.println("\n\t\t\tBunga Tulip");
+        System.out.println("Nama Ilmiah       : " + st.getnama_ilmiah());
+        System.out.println("Warna             : " + st.getWarna());
+        System.out.println("Iklim             : " + st.getIklim());
+        System.out.println("Tanah             : " + st.getTanah());
+        System.out.println("Hewan Penyerbuk   : " + st.getHewan_penyerbuk());
     }
 
 }
