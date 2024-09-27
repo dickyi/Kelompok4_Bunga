@@ -31,7 +31,7 @@ public class Main {
         Bunga_Tulip st = new Bunga_Tulip();
 
         st.setnama_ilmiah("Tulipa");
-        st.setWarna("Beragam(Merah, Kuning, Putih)");
+        st.setWarna("Beragam(Merah, Kuning, Putih, Ungu)");
         st.setIklim("Sedang");
         st.setTanah("Berdrainase baik dan subur");
         st.setHewan_penyerbuk("Lebah");
