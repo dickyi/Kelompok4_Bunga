@@ -26,6 +26,21 @@ public class Main {
         System.out.println("Iklim             : " + bunga.getIklim());
         System.out.println("Tanah             : " + bunga.getTanah());
         System.out.println("Hewan Penyerbuk   : " + bunga.getHewan_penyerbuk());
+        
+        Bunga_Matahari bm = new Bunga_Matahari();
+
+        bm.setnama_ilmiah("Heliantus anuus");
+        bm.setWarna("Kuning");
+        bm.setIklim("SubTropis");
+        bm.setTanah("Tanah yang baik drainasenya, kaya nutrisi");
+        bm.setHewan_penyerbuk("Lebah");
+
+        System.out.println("\n\t\t\tBunga Matahari");
+        System.out.println("Nama Ilmiah       : " + bm.getnama_ilmiah());
+        System.out.println("Warna             : " + bm.getWarna());
+        System.out.println("Iklim             : " + bm.getIklim());
+        System.out.println("Tanah             : " + bm.getTanah());
+        System.out.println("Hewan Penyerbuk   : " + bm.getHewan_penyerbuk());
     }
 
 }
