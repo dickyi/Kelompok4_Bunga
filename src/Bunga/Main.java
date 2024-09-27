@@ -26,6 +26,22 @@ public class Main {
         System.out.println("Iklim             : " + bunga.getIklim());
         System.out.println("Tanah             : " + bunga.getTanah());
         System.out.println("Hewan Penyerbuk   : " + bunga.getHewan_penyerbuk());
+        
+        //Punya Rizal
+        Bunga_Edelweis FR = new Bunga_Edelweis();
+
+        FR.setnama_ilmiah("Leontopodium alpinum");
+        FR.setWarna("Putih atau keperakan dan ditengahnya kuning");
+        FR.setIklim("Sejuk hingga dingin");
+        FR.setTanah("Berbatu");
+        FR.setHewan_penyerbuk("Lebah dan kupu-kupu");
+
+        System.out.println("\n\t\t\tBunga Edelweis");
+        System.out.println("Nama Ilmiah       : " + FR.getnama_ilmiah());
+        System.out.println("Warna             : " + FR.getWarna());
+        System.out.println("Iklim             : " + FR.getIklim());
+        System.out.println("Tanah             : " + FR.getTanah());
+        System.out.println("Hewan Penyerbuk   : " + FR.getHewan_penyerbuk());
     }
 
 }
